@@ -11,7 +11,7 @@ app.use(morgan('combined'))
 //จัดการ request หน้าเปล่าๆ
 app.get("/",(req,res)=>{
     //การตอบกลับ
-    res.send('Hello Apinan Prakaekan');
+    res.send('Hello Apinan Prakaekan from Lampang');
 });
 
 //รอฟังที่ port
